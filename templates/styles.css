@@ -1,0 +1,14 @@
+form {
+    font-size: 20px;
+    color: red
+  }
+  input {
+    font-size: 20px;
+  }
+  h1{ 
+    text-align: center
+
+  } 
+  select {
+    font-size: 30px;
+  }
