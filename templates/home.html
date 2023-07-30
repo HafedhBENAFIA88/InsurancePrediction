@@ -26,11 +26,11 @@
     <br>
     <br>
     <label  for="weight">Votre Poids en Kg</label>
-    <input id="weight" type="number" min=20 max=130 name="wight" placeholder=70 required>
+    <input id="weight" type="number" min=20 max=130 name="weight" placeholder=70 required>
     <br>
     <br>
     <label  for="height">Votre hauteur en m</label>
-    <input id="height" type="number" min=0.5 max=2.5 step=0.01 placeholder=1.7 required>
+    <input id="height" type="number" min=0.5 max=2.5 step=0.01  name="height" placeholder=1.7 required>
     <br>
     <br>
     <label  for="children">Donner le nombre de vos enfants </label>
@@ -54,7 +54,7 @@
     <br>
     <br>
         <input type="submit" value="Cliquer pour estimer la charge du client " required /> 
-        <p>THE  prediction is {{results}}</p> 
+        <p>Les charges prvévues pour le clients en question valent {{results}} $</p> 
 </body>
 
 </form>
